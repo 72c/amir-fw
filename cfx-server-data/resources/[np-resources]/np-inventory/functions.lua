@@ -869,6 +869,7 @@ AddEventHandler('RunUseItem', function(itemid, slot, inventoryName, isWeapon, pa
             TriggerEvent("addiction:drugTaken", "weed")
             TriggerEvent("Evidence:StateSet",3,600)
             TriggerEvent("Evidence:StateSet",4,600)
+            TriggerEvent("client:newStress", false, math.random(100, 550))
             TriggerEvent("stress:timed2",5000,"WORLD_HUMAN_SMOKING_POT")
             remove = true
         end

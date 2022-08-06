@@ -171,7 +171,7 @@ end
 RegisterNetEvent("store:dosafe")
 AddEventHandler("store:dosafe", function()
 	local storeid = isStoreRobbery()
-	if exports["isPed"]:isPed("countpolice") >= 2 then
+	if exports["isPed"]:isPed("countpolice") >= 0 then
 		TriggerEvent("np-dispatch:storerobbery2")
 		TriggerServerEvent("police:camrobbery",storeid)
 		TriggerEvent("client:newStress",true,200)	
@@ -187,7 +187,7 @@ local you = 0
 
 RegisterNetEvent("store:register")
 AddEventHandler("store:register", function(storeid,regid)
-	if exports["isPed"]:isPed("countpolice") >= 2 then
+	if exports["isPed"]:isPed("countpolice") >= 0 then
 		TriggerEvent("np-dispatch:storerobbery2")
 		TriggerServerEvent("police:camrobbery",storeid)
 		TriggerEvent("client:newStress",true,200)	

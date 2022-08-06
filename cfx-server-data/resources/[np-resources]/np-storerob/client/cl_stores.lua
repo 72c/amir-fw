@@ -657,7 +657,7 @@ AddEventHandler('dark-storerob:stores:store_openSafe_1', function()
            TriggerEvent('player:receiveItem', 'markedbills', random) 
            ClearPedTasks(PlayerPedId())
            store_getmoney_1 = false
-        Wait(1800000)
+        Wait(60000)
         store_getmoney_1 = true
            store_cracked_1 = false
            store_crack_1 = true
@@ -666,7 +666,7 @@ AddEventHandler('dark-storerob:stores:store_openSafe_1', function()
            store_crack_1 = true
            store_cracked_1 = false
            store_getmoney_1 = false
-        Wait(1800000)
+        Wait(60000)
         store_getmoney_1 = true
     else
         TriggerEvent("notification","You could not crack the password!",2)
@@ -1456,7 +1456,7 @@ if safe_robbed_1 then
         TriggerServerEvent("mission:completed")
         TriggerServerEvent('dark-storerob:stores:giveMoney')
         safe_robbed_1 = false
-        Wait(1800000)
+        Wait(60000)
         safe_robbed_1 = true
     else
         TriggerEvent("notification","Locked!",2)
@@ -1477,7 +1477,7 @@ RegisterNetEvent("dark-storerob:stores:crackwritesafe1s", function()
             TriggerServerEvent("mission:completed")
             TriggerServerEvent('dark-storerob:stores:giveMoney')
             safe_robbed_1s = false
-            Wait(1800000)
+            Wait(60000)
             safe_robbed_1s = true
         else
             TriggerEvent("notification","Locked!",2)
@@ -1498,7 +1498,7 @@ if safe_robbed_2 then
         TriggerServerEvent("mission:completed")
         TriggerServerEvent('dark-storerob:stores:giveMoney')
         safe_robbed_2 = false
-        Wait(1800000)
+        Wait(60000)
         safe_robbed_2 = true
     else
         TriggerEvent("notification","Locked!",2)
@@ -1519,7 +1519,7 @@ RegisterNetEvent("dark-storerob:stores:crackwritesafe2s", function()
             TriggerServerEvent("mission:completed")
             TriggerServerEvent('dark-storerob:stores:giveMoney')
             safe_robbed_2s = false
-            Wait(1800000)
+            Wait(60000)
             safe_robbed_2s = true
         else
             TriggerEvent("notification","Locked!",2)
@@ -1541,7 +1541,7 @@ if safe_robbed_3 then
         TriggerServerEvent("mission:completed")
         TriggerServerEvent('dark-storerob:stores:giveMoney')
         safe_robbed_3 = false
-        Wait(1800000)
+        Wait(60000)
         safe_robbed_3 = true
     else
         TriggerEvent("notification","Locked!",2)
@@ -1564,7 +1564,7 @@ if safe_robbed_4 then
         TriggerServerEvent("mission:completed")
         TriggerServerEvent('dark-storerob:stores:giveMoney')
         safe_robbed_4 = false
-        Wait(1800000)
+        Wait(60000)
         safe_robbed_4 = true
     else
         TriggerEvent("notification","Locked!",2)
@@ -1585,7 +1585,7 @@ RegisterNetEvent("dark-storerob:stores:crackwritesafe4s", function()
             TriggerServerEvent("mission:completed")
             TriggerServerEvent('dark-storerob:stores:giveMoney')
             safe_robbed_4s = false
-            Wait(1800000)
+            Wait(60000)
             safe_robbed_4s = true
         else
             TriggerEvent("notification","Locked!",2)
@@ -1606,7 +1606,7 @@ if safe_robbed_5 then
         TriggerServerEvent("mission:completed")
         TriggerServerEvent('dark-storerob:stores:giveMoney')
         safe_robbed_5 = false
-        Wait(1800000)
+        Wait(60000)
         safe_robbed_5 = true
     else
         TriggerEvent("notification","Locked!",2)
@@ -1627,7 +1627,7 @@ if safe_robbed_6 then
         TriggerServerEvent("mission:completed")
         TriggerServerEvent('dark-storerob:stores:giveMoney')
         safe_robbed_6 = false
-        Wait(1800000)
+        Wait(60000)
         safe_robbed_6 = true
     else
         TriggerEvent("notification","Locked!",2)
@@ -1648,7 +1648,7 @@ RegisterNetEvent("dark-storerob:stores:crackwritesafe6s", function()
             TriggerServerEvent("mission:completed")
             TriggerServerEvent('dark-storerob:stores:giveMoney')
             safe_robbed_6s = false
-            Wait(1800000)
+            Wait(60000)
             safe_robbed_6s = true
         else
             TriggerEvent("notification","Locked!",2)
@@ -1669,7 +1669,7 @@ if safe_robbed_7 then
         TriggerServerEvent("mission:completed")
         TriggerServerEvent('dark-storerob:stores:giveMoney')
         safe_robbed_7 = false
-        Wait(1800000)
+        Wait(60000)
         safe_robbed_7 = true
     else
         TriggerEvent("notification","Locked!",2)
@@ -1690,7 +1690,7 @@ RegisterNetEvent("dark-storerob:stores:crackwritesafe7s", function()
             TriggerServerEvent("mission:completed")
             TriggerServerEvent('dark-storerob:stores:giveMoney')
             safe_robbed_7s = false
-            Wait(1800000)
+            Wait(60000)
             safe_robbed_7s = true
         else
             TriggerEvent("notification","Locked!",2)
@@ -1711,7 +1711,7 @@ if safe_robbed_8 then
         TriggerServerEvent("mission:completed")
         TriggerServerEvent('dark-storerob:stores:giveMoney')
         safe_robbed_8 = false
-        Wait(1800000)
+        Wait(60000)
         safe_robbed_8 = true
     else
         TriggerEvent("notification","Locked!",2)
@@ -1732,7 +1732,7 @@ RegisterNetEvent("dark-storerob:stores:crackwritesafe8s", function()
             TriggerServerEvent("mission:completed")
             TriggerServerEvent('dark-storerob:stores:giveMoney')
             safe_robbed_8s = false
-            Wait(1800000)
+            Wait(60000)
             safe_robbed_8s = true
         else
             TriggerEvent("notification","Locked!",2)
@@ -1753,7 +1753,7 @@ if safe_robbed_9 then
         TriggerServerEvent("mission:completed")
         TriggerServerEvent('dark-storerob:stores:giveMoney')
         safe_robbed_9 = false
-        Wait(1800000)
+        Wait(60000)
         safe_robbed_9 = true
     else
         TriggerEvent("notification","Locked!",2)
@@ -1774,7 +1774,7 @@ if safe_robbed_10 then
         TriggerServerEvent("mission:completed")
         TriggerServerEvent('dark-storerob:stores:giveMoney')
         safe_robbed_10 = false
-        Wait(1800000)
+        Wait(60000)
         safe_robbed_10 = true
     else
         TriggerEvent("notification","Locked!",2)
@@ -1795,7 +1795,7 @@ if safe_robbed_10s then
         TriggerServerEvent("mission:completed")
         TriggerServerEvent('dark-storerob:stores:giveMoney')
         safe_robbed_10s = false
-        Wait(1800000)
+        Wait(60000)
         safe_robbed_10s = true
     else
         TriggerEvent("notification","Locked!",2)
@@ -1816,7 +1816,7 @@ if safe_robbed_11 then
         TriggerServerEvent("mission:completed")
         TriggerServerEvent('dark-storerob:stores:giveMoney')
         safe_robbed_11 = false
-        Wait(1800000)
+        Wait(60000)
         safe_robbed_11 = true
     else
         TriggerEvent("notification","Locked!",2)
@@ -1837,7 +1837,7 @@ if safe_robbed_11s then
         TriggerServerEvent("mission:completed")
         TriggerServerEvent('dark-storerob:stores:giveMoney')
         safe_robbed_11s = false
-        Wait(1800000)
+        Wait(60000)
         safe_robbed_11s = true
     else
         TriggerEvent("notification","Locked!",2)
@@ -1858,7 +1858,7 @@ if safe_robbed_12 then
         TriggerServerEvent("mission:completed")
         TriggerServerEvent('dark-storerob:stores:giveMoney')
         safe_robbed_12 = false
-        Wait(1800000)
+        Wait(60000)
         safe_robbed_12 = true
     else
         TriggerEvent("notification","Locked!",2)
@@ -1879,7 +1879,7 @@ RegisterNetEvent("dark-storerob:stores:crackwritesafe12s", function()
             TriggerServerEvent("mission:completed")
             TriggerServerEvent('dark-storerob:stores:giveMoney')
             safe_robbed_12s = false
-            Wait(1800000)
+            Wait(60000)
             safe_robbed_12s = true
         else
             TriggerEvent("notification","Locked!",2)
@@ -1900,7 +1900,7 @@ if safe_robbed_13 then
         TriggerServerEvent("mission:completed")
         TriggerServerEvent('dark-storerob:stores:giveMoney')
         safe_robbed_13 = false
-        Wait(1800000)
+        Wait(60000)
         safe_robbed_13 = true
     else
         TriggerEvent("notification","Locked!",2)
@@ -1921,7 +1921,7 @@ RegisterNetEvent("dark-storerob:stores:crackwritesafe13s", function()
             TriggerServerEvent("mission:completed")
             TriggerServerEvent('dark-storerob:stores:giveMoney')
             safe_robbed_13s = false
-            Wait(1800000)
+            Wait(60000)
             safe_robbed_13s = true
         else
             TriggerEvent("notification","Locked!",2)
@@ -1942,7 +1942,7 @@ if safe_robbed_14 then
         TriggerServerEvent("mission:completed")
         TriggerServerEvent('dark-storerob:stores:giveMoney')
         safe_robbed_14 = false
-        Wait(1800000)
+        Wait(60000)
         safe_robbed_14 = true
     else
         TriggerEvent("notification","Locked!",2)
@@ -1963,7 +1963,7 @@ if safe_robbed_15 then
         TriggerServerEvent("mission:completed")
         TriggerServerEvent('dark-storerob:stores:giveMoney')
         safe_robbed_15 = false
-        Wait(1800000)
+        Wait(60000)
         safe_robbed_15 = true
     else
         TriggerEvent("notification","Locked!",2)
@@ -1984,7 +1984,7 @@ if safe_robbed_16 then
         TriggerServerEvent("mission:completed")
         TriggerServerEvent('dark-storerob:stores:giveMoney')
         safe_robbed_16 = false
-        Wait(1800000)
+        Wait(60000)
         safe_robbed_16 = true
     else
         TriggerEvent("notification","Locked!",2)
@@ -2005,7 +2005,7 @@ RegisterNetEvent("dark-storerob:stores:crackwritesafe16", function()
             TriggerServerEvent("mission:completed")
             TriggerServerEvent('dark-storerob:stores:giveMoney')
             safe_robbed_16s = false
-            Wait(1800000)
+            Wait(60000)
             safe_robbed_16s = true
         else
             TriggerEvent("notification","Locked!",2)
@@ -2026,7 +2026,7 @@ if safe_robbed_17 then
         TriggerServerEvent("mission:completed")
         TriggerServerEvent('dark-storerob:stores:giveMoney')
         safe_robbed_17 = false
-        Wait(1800000)
+        Wait(60000)
         safe_robbed_17 = true
     else
         TriggerEvent("notification","Locked!",2)
@@ -2047,7 +2047,7 @@ RegisterNetEvent("dark-storerob:stores:crackwritesafe17", function()
             TriggerServerEvent("mission:completed")
             TriggerServerEvent('dark-storerob:stores:giveMoney')
             safe_robbed_17s = false
-            Wait(1800000)
+            Wait(60000)
             safe_robbed_17s = true
         else
             TriggerEvent("notification","Locked!",2)
@@ -2068,7 +2068,7 @@ if safe_robbed_18 then
         TriggerServerEvent("mission:completed")
         TriggerServerEvent('dark-storerob:stores:giveMoney')
         safe_robbed_18 = false
-        Wait(1800000)
+        Wait(60000)
         safe_robbed_18 = true
     else
         TriggerEvent("notification","Locked!",2)
@@ -2089,7 +2089,7 @@ RegisterNetEvent("dark-storerob:stores:crackwritesafe18", function()
             TriggerServerEvent("mission:completed")
             TriggerServerEvent('dark-storerob:stores:giveMoney')
             safe_robbed_18s = false
-            Wait(1800000)
+            Wait(60000)
             safe_robbed_18s = true
         else
             TriggerEvent("notification","Locked!",2)
@@ -2110,7 +2110,7 @@ if safe_robbed_19 then
         TriggerServerEvent("mission:completed")
         TriggerServerEvent('dark-storerob:stores:giveMoney')
         safe_robbed_19 = false
-        Wait(1800000)
+        Wait(60000)
         safe_robbed_19 = true
     else
         TriggerEvent("notification","Locked!",2)
