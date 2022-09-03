@@ -1,5 +1,7 @@
-# dare-base
+# amir-fw
 
-made public by Amir/Dare/72C - join are discord @ discord.gg/dares
+made public by Amir/72C - join are discord @ discord.gg/amir
 
-fuck evan/aspect the retard
+thanks to Z81D for adding new features and doing bug fixes
+
+also don't buy astralrp base, its shit.
